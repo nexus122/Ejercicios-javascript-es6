@@ -34,7 +34,7 @@ let pacientes = [{
 }];
 
 // ✔️ B) COPIA el array de pacientes Y AÑADE un nuevo paciente. USa el operador de 'spread' para realizar la copia, NO HAGAS PUSH. Guarda el array nuevo en una variable de nombre 'pacientesActualizados'
-let pacientesActualizados = {...pacientes, 2:{nombre: 'Marco', ultimaVisitaPagada: false, ultimaVisita:'1/4/2021 18: 32: 19'}}
+let pacientesActualizados = [...pacientes, {nombre: 'Marco', ultimaVisitaPagada: false, ultimaVisita:'1/4/2021 18: 32: 19'}]
 console.log(pacientesActualizados);
 
 /**
